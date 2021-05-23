@@ -1,5 +1,5 @@
 // Write your solution in this file!
-unction updateObjectWithKeyAndValue(object, key, value){
+function updateObjectWithKeyAndValue(object, key, value){
   return Object.assign ({}, object, {[key] : value});
 }
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
